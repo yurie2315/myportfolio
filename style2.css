@@ -47,27 +47,32 @@ body.active {
 }
 
 section {
-    min-height: 100vh;
+    min-height: 30vh;
     padding: 2rem;
 }
 
 .btn {
-    margin-top: 1rem;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%; 
+    background: none;
     padding: 1rem 3.5rem;
     border-radius: .5rem;
-    font-size: 1.7rem;
+    font-size: 2rem;
     cursor: pointer;
-    background: none;
     color: var(--black);
-    box-shadow: var(--box-shadow);
-    margin-left: 2rem;
+    /* box-shadow: var(--box-shadow); */
     font-style: normal;
 }
 
+
+
 .btn:hover {
-    box-shadow: var(--box-shadow-inset);
+    /* box-shadow: var(--box-shadow-inset); */
     color: var(--green);
+    background: none;
 }
 
 .heading span {
