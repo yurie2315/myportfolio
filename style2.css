@@ -61,6 +61,8 @@ section {
     background: none;
     color: var(--black);
     box-shadow: var(--box-shadow);
+    margin-left: 2rem;
+    font-style: normal;
 }
 
 .btn:hover {
