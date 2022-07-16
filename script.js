@@ -4,7 +4,9 @@ let header = document.querySelector('.header');
 menu.onclick = () => {
     menu.classList.toggle('fa-times');
     header.classList.toggle('active');
+    
 }
+
 
 let themeToggler = document.querySelector('#theme-toggler');
 
@@ -16,4 +18,3 @@ themeToggler.onclick = () => {
         document.body.classList.remove('active');
     }
 }
-
