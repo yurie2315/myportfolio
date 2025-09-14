@@ -61,6 +61,7 @@ section {
     background: none;
     color: var(--black);
     box-shadow: var(--box-shadow);
+    text-decoration: none;
 }
 
 .btn:hover {
