@@ -264,6 +264,7 @@ section {
     text-align: center;    /* Center the text */
     font-size: 1.7rem;     /* Optional: adjust font size */
     color: var(--black);   /* Optional: ensure color matches theme */
+    margin-bottom: 5rem;
 }
 .about p span {
   color: var(--orange);
