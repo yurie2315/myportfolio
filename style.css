@@ -12,6 +12,10 @@
                   -.4rem -.4rem 1rem #fff inset;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 *{
     font-family: 'Poppins', sans-serif;
