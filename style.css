@@ -71,7 +71,6 @@ section {
 
 .btn a {
     text-decoration: none; /* Ensure the link doesn't have any underline */
-    color: inherit; /* Inherit the color from the parent button */
 }
 
 .btn:hover {
