@@ -77,6 +77,7 @@ section {
 .btn:hover {
     box-shadow: var(--box-shadow-inset);
     color: var(--green);
+    color: inherit; /* Ensure the color stays the same on hover */
 }
 
 .heading {
