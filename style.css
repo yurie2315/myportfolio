@@ -79,6 +79,11 @@ section {
     color: var(--green);
 }
 
+.btn:focus, .btn:active {
+    outline: none;
+    box-shadow: var(--box-shadow-inset);
+}
+
 .heading {
     text-align: center;
     font-size: 5rem;
