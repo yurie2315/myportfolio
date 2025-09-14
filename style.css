@@ -257,7 +257,6 @@ section {
     align-items: center;
     flex-wrap: wrap-reverse;
     gap: 2rem;
-    flex-direction: column;
 }
 
 .about .row .box-container {
