@@ -93,6 +93,7 @@ section {
     padding-bottom: 2rem;
 }
 
+
 .heading span {
     color: var(--green);
     text-transform: uppercase;
@@ -252,11 +253,45 @@ section {
     color: var(--green);
 }
 
+.about .heading2 span {
+  color: var(--orange);
+  font-family: "Dancing Script", cursive;
+}
+
+.about > p {
+    max-width: 900px;      /* Limit the width */
+    margin: 0 auto 2rem;   /* Center horizontally and add bottom margin */
+    text-align: center;    /* Center the text */
+    font-size: 1.7rem;     /* Optional: adjust font size */
+    color: var(--black);   /* Optional: ensure color matches theme */
+}
+.about p span {
+  color: var(--orange);
+  font-weight: bold;
+  font-size: 2.3rem;
+}
+
+.about .btn {
+    display: inline-block;
+    margin: 2rem auto 3rem auto;
+    text-align: center;
+    padding: 2rem 5rem;      /* Increased padding */
+    font-size: 2.2rem;       /* Larger font size */
+}
+
+.about-btn-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0 3rem 0; /* spacing above and below */
+}
+
 .about .row {
     display: flex;
     align-items: center;
     flex-wrap: wrap-reverse;
     gap: 2rem;
+    justify-content: center; /* Add this line */
 }
 
 .about .row .box-container {
@@ -264,6 +299,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
+    margin-bottom: 4rem;
 }
 
 .about .row .box-container .box {
