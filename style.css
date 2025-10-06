@@ -421,6 +421,22 @@ section {
     width: 87%;
 }
 
+.kit-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 2rem 2rem;
+}
+
+.kit-center > div {
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+    padding: 2rem;
+    max-width: 900px;
+    width: 100%;
+}
+
 /* section services start  */
 
 .services .box-container {
